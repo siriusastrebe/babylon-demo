@@ -34,7 +34,7 @@ module.exports = {
   },
   devServer: {
     static: {
-      directory: path.join(__dirname, './'),
+      directory: path.join(__dirname, './src'),
       serveIndex: true,
     },
     open: ['/'],
